@@ -6,7 +6,7 @@ import axios from "axios";
 //   return data;
 // };
 
-const fetchEvents = async (page) => {
+export const fetchEvents = async (page) => {
   const { data } = await axios.get(
     `https://job-tracker1-9ef445b4f214.herokuapp.com/events?page=${page}`
   );

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useEvents from "./hooks/useEvents";
 import styled from "styled-components";
 

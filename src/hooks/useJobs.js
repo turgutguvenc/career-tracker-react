@@ -11,7 +11,7 @@ import axios from "axios";
 //   }
 // };
 
-const fetchJobs = async (page) => {
+export const fetchJobs = async (page) => {
   try {
     const { data } = await axios.get(
       `https://job-tracker1-9ef445b4f214.herokuapp.com/jobs?page=${page}`
